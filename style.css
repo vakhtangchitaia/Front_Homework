@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.logo{
+    margin-left:80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: white;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.login{
+    padding: 9px 25px;
+    border: 1px solid #6C63FF;
+    color:#6C63FF;
+    margin-right: 16px;
+}
+.get-started-button{
+    padding: 9px 25px;
+    margin-right: 80px;
+    border: 0;
+    background-color:#6C63FF;
+}
+.buttons{
+    margin-right: 80px;
+}
+.first-section{
+    margin-top: 126px;
+    left: 130px;
+    display: flexbox;
+}
+.first-section div{
+    flex-direction: column;
+    margin-left: 130px;
+}
+div p{
+    width: 489px;
+    height: 102px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #9893A3;
+
+}
+.first-photo{
+    position: absolute;
+    width: 642px;
+    height: 559px;
+    top: 126px;
+    right: 130px;
+    left: 668px;
+}
+.first-section h1{
+    width: 489px;
+    height: 264px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 88px;
+
+    letter-spacing: -1px;
+
+    color: #2F2E41;
+}
+
+.Second_Photo{
+    position: absolute;
+    width: 600px;
+    height: 442.78px;
+    margin-top: 130px;
+    margin-left: 40px;
+}
+.details{
+    width: 400px;
+    height: 309px;
+    position: absolute;
+    top: 1100px;
+    margin-left: 800px;
+    margin-right: 129px;
+    margin-bottom: 100px;
+}
+
+.second-section h1{
+    width: 489px;
+    height: 264px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 88px;
+
+    letter-spacing: -1px;
+
+    color: #2F2E41;
+}
+
+.logo-nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-top: 160px;
+    margin-left: 350px;
+    margin-right: 269px;
+}
+.logo-nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    height: 502px;
+    margin-left: 131px;
+    margin-right: 129px;
+    margin-top: 400px;
+}
+
+.main-div{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 1180px;
+    height: 502px;
+    top: 1600px;
+    left: 80px;
+}
+.main-div div{
+    width: 363px;
+    height: 421px;
+    background-color: #ECEBFF;
+    border-radius: 2px;
+}
+
+.third-section div ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+
+.third-section div ul li{
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.third-section div ul li button{
+    padding: 9px 25px;
+    border: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.main-li{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 56px;
+
+    color: #2F2E41;
+}
+
+.Price2{
+    background-color: #6C63FF;
+    width: 363px;
+    height: 502px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.third-section h1{
+    width: 480px;
+    height: 64px;
+    margin-top: 220px;
+    margin-left: 300px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+
+    letter-spacing: -1px;
+
+    color: #2F2E41;
+}
+
+.contact-banner{
+    width: 900px;
+    height: 350px;
+    margin-left: 250px;
+    margin-right: 279px;
+    margin-top: 478px;
+    margin-bottom: 300px;
+    background-color: #2F2E41;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.contact-banner button{
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px;
+    gap: 10px;
+
+    width: 350px;
+    height: 45px;
+
+    background: #6C63FF;
+
+    border: 1px solid #6C63FF;
+    color: #FFFFFF;
+    border-radius: 2px;
+    margin-top: 121px;
+    margin-right: 84px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+} 
+
+.contact-banner h1{
+    width: 346px;
+    height: 128px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-top: 84px;
+    margin-left: 84px;
+    margin-bottom: 84px;
+    margin-right: 150px;
+}
+
+footer{
+    width: 1440px;
+    height: 598px;
+    margin-top:91px ;
+    margin-bottom: 0px;
+    background-color: #ECEBFF;
+    padding-top: 10px;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    outline-offset: 1px;
+    outline-style: solid black;
+    position: absolute;
+    width: 900px;
+    height: 212.55px;
+    left: 400px;
+    top: 3110px;
+    margin-right: 270px;
+    margin-bottom: 140.91px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 545px;
+}
+
+.logo-1{
+    width: 60px;
+    height: 21.3px;
+    margin-right: 900px;
+}
+
+.footer-div div ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.icon-ul{
+    list-style-type: none;
+}
+
+.icon-ul li{
+    display: inline-block;
+    padding: 5px;
+    flex-direction: row;
+    margin-top: 23px;
+}
+
+.icon-ul p{
+    position: absolute;
+    width: 107px;
+    height: 24px;
+    top: 0px;
+
+    /* Body title */
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F2E41;
+}
+
+
